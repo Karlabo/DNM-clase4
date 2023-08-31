@@ -15,7 +15,7 @@ canvas {
 /*
 Pruebe el CSS Layout Generator
 https://layout.bradwoods.io/customize
-Modifique el este grid de 2 x 2 por uno de 3 x 3
+Modifique el este grid de 2 x 2 por uno de 3 x 3,, "modificar numero en rows(filas) y columns(columnas)"
 */
 
 main#aqui{
@@ -25,7 +25,7 @@ main#aqui{
   left:50%;
   transform:translate(-50%, -50%);
   display: grid;
-  grid-template-rows: repeat(3, auto);
+  grid-template-rows: repeat(3, auto); 
   grid-template-columns: repeat(3, auto);
   grid-gap: 1.6% 1%;
 }

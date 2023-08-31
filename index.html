@@ -23,7 +23,7 @@
             baraja = fotos.sort(function () {
                return 0.5 - Math.random();
             });
-            var escoge = baraja.slice(0, 9);
+            var escoge = baraja.slice(0, 9); //cambio de imagenes, las 9 varian
             console.log(escoge);
             escoge.forEach((e) => createDiv('<a href="page.html?esta=' + e.slice(-10) + '"><img src="' + e + '"></a>').parent("#aqui"));
          }
